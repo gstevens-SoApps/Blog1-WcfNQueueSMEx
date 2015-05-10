@@ -1,0 +1,12 @@
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\bin\Debug\WcfDeviceIngestionService.dll.config
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\bin\Debug\WcfDeviceIngestionService.dll
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\bin\Debug\WcfDeviceIngestionService.pdb
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\bin\Debug\Shared.dll
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\bin\Debug\ServiceModelEx.dll
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\bin\Debug\Microsoft.ServiceBus.dll
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\bin\Debug\Shared.pdb
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\bin\Debug\ServiceModelEx.pdb
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\bin\Debug\Microsoft.ServiceBus.xml
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\obj\Debug\WcfDataIngestionService.csprojResolveAssemblyReference.cache
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\obj\Debug\WcfDeviceIngestionService.dll
+C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDeviceSMEx\WcfDeviceIngestionService\obj\Debug\WcfDeviceIngestionService.pdb
