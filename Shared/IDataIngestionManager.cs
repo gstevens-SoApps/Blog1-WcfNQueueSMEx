@@ -23,6 +23,6 @@ namespace Shared
     public interface IDataIngestionManager
     {
         [OperationContract(IsOneWay = true)]
-        void SendQueuedTestMessage(TestMessage dmsg);
+        void IngestTestData(TestMessage dmsg);
     }
 }

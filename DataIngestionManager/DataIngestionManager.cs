@@ -28,9 +28,9 @@ namespace DataIngestionManager
     {
         private string m_ThisName = "DataIngestionManager";
 
-        void IDataIngestionManager.SendQueuedTestMessage(TestMessage msg)
+        void IDataIngestionManager.IngestTestData(TestMessage msg)
         {
-            string greeting = String.Format("\n{0}.SendQueuedTestMessage(): Entered.", m_ThisName);
+            string greeting = String.Format("\n{0}.IngestTestData(): Entered.", m_ThisName);
             Console.WriteLine(greeting);
             Trace.TraceInformation("**" + greeting);
             ConsoleNTraceHelpers.DisplayTestMessage(msg);

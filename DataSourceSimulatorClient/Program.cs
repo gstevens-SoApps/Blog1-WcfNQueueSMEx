@@ -48,14 +48,14 @@ namespace DataSourceSimulatorClient
                 try
                 {
                     // Assume the queue exists, having been previously provisioned in Azure Portal.
-                    Console.WriteLine("{0}.Main(): Sending test message to queue.", m_ThisName);
+                    Console.WriteLine("{0}.Main(): Enqueueing test message..", m_ThisName);
 
                     TestMessage msg = MakeTestMessage(++m_MsgSeqNumber, m_SourceId, m_SourceGroupId);
-                    SendMessageToQueue(msg, ConstsNEnums.IngestionQueueEndpointName);
+                    IngestTestData(msg, ConstsNEnums.IngestionQueueEndpointName);
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("{0}.Main(): SendMessageToQueue() proxy threw exception\n {1}.", m_ThisName, ex);
+                    Console.WriteLine("{0}.Main(): IngestTestData() proxy threw exception\n {1}.", m_ThisName, ex);
                 }
             }
         }
@@ -81,21 +81,21 @@ namespace DataSourceSimulatorClient
             return msg;
         }
 
-        private static void SendMessageToQueue(TestMessage msg, string queueName)
+        private static void IngestTestData(TestMessage msg, string queueName)
         {
             // "Programming WCF Services" 3rd edition by Juval Lowy pp 259-260 recommends the
             // following form when needing to catch exceptions near the SendQueuedTestMessage(). 
             DataIngestionServiceProxy proxy = new DataIngestionServiceProxy(queueName);
             try
             {
-                proxy.SendQueuedTestMessage(msg);
+                proxy.IngestTestData(msg);
                 proxy.Close();
-                Console.WriteLine("{0}.SendMessageToQueue(): Test message enqueued Ok.", m_ThisName);
+                Console.WriteLine("{0}.IngestTestData(): Test message enqueued Ok.", m_ThisName);
                 ConsoleNTraceHelpers.DisplayTestMessage(msg);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("{0}.SendMessageToQueue(): Proxy threw exception\n {1}.", m_ThisName, ex);
+                Console.WriteLine("{0}.IngestTestData(): Proxy threw exception\n {1}.", m_ThisName, ex);
                 proxy.Abort();
             }
         }

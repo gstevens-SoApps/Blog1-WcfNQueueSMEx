@@ -27,13 +27,13 @@ namespace Shared
         {
         }
 
-        public void SendQueuedTestMessage(TestMessage msg)
+        public void IngestTestData(TestMessage msg)
         {
             // "Programming WCF Services", 3rd Edition by Juval Lowy
             // pp 258 - 259 recommends the form of implementing proxies like below.
             try
             {
-                Channel.SendQueuedTestMessage(msg);
+                Channel.IngestTestData(msg);
             }
             catch (Exception ex)
             {

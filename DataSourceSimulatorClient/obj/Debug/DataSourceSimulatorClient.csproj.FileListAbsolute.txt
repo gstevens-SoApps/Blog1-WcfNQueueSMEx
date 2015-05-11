@@ -58,4 +58,3 @@ C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueSMExBlog\WcfNQueueSMEx\Data
 C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueSMExBlog\WcfNQueueSMEx\DataSourceSimulatorClient\obj\Debug\DataSourceSimulatorClient.exe
 C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueSMExBlog\WcfNQueueSMEx\DataSourceSimulatorClient\obj\Debug\DataSourceSimulatorClient.pdb
 C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueSMExBlog\DeployCleanedToGit\WcfNQueueSMEx\DataSourceSimulatorClient\bin\Debug\DataSourceSimulatorClient.exe.config
-C:\SWDev\Src\Dev\Blog1-WcfNQueueSMEx\DataSourceSimulatorClient\bin\Debug\DataSourceSimulatorClient.exe.config
