@@ -30,7 +30,7 @@ namespace DataIngestionCloudWorker
 
         public override void Run()
         {
-            Trace.TraceInformation("\n**" + m_ThisName+ ".Run():  Entered.");
+            Trace.TraceInformation("\n**" + m_ThisName + ".Run():  Entered.");
             Trace.TraceInformation("\n**" + m_ThisName + ".Run(): Starting QueuedServiceBusHost...");
             
             // The service host is opened in this Run() method so as to have the queue 
@@ -70,7 +70,7 @@ namespace DataIngestionCloudWorker
             }
             catch (Exception ex)
             {
-                Trace.TraceError("\n**" + m_ThisName + ".OpenServiceHost():  host.Open() Threw exception!\n" + ex.ToString());
+                Trace.TraceError("\n**" + m_ThisName + ".OpenServiceHost():  host.Open() Threw exception!\n" + ex);
                 m_QueuedServiceBusHost.Abort();
             }
             return serviceHostOk;

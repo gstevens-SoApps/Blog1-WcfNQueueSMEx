@@ -19,8 +19,8 @@ using System.ServiceModel;
 
 namespace Shared
 {
-    [ServiceContract]
-    public interface IDataIngestionManager
+    [ServiceContract(Namespace = "GeorgeStevens/SoApps/5/15")]
+    public interface IDataIngestion
     {
         [OperationContract(IsOneWay = true)]
         void IngestTestData(TestMessage dmsg);

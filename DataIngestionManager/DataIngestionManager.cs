@@ -24,11 +24,11 @@ using ServiceModelEx;
 namespace DataIngestionManager
 {
     [GenericResolverBehavior] 
-    public class DataIngestionManager : IDataIngestionManager
+    public class DataIngestionManager : IDataIngestion
     {
         private string m_ThisName = "DataIngestionManager";
 
-        void IDataIngestionManager.IngestTestData(TestMessage msg)
+        void IDataIngestion.IngestTestData(TestMessage msg)
         {
             string greeting = String.Format("\n{0}.IngestTestData(): Entered.", m_ThisName);
             Console.WriteLine(greeting);

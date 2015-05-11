@@ -19,7 +19,7 @@ using System.Runtime.Serialization;
 
 namespace Shared
 {
-    [DataContract(Namespace = "GeorgeStevens.SOApps")]
+    [DataContract(Namespace = "GeorgeStevens/SoApps/5/15")]
     public class TestMessage : SbMessage
     {
         [DataMember]

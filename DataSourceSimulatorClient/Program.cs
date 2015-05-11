@@ -85,7 +85,7 @@ namespace DataSourceSimulatorClient
         {
             // "Programming WCF Services" 3rd edition by Juval Lowy pp 259-260 recommends the
             // following form when needing to catch exceptions near the SendQueuedTestMessage(). 
-            DataIngestionServiceProxy proxy = new DataIngestionServiceProxy(queueName);
+            DataIngestionClient proxy = new DataIngestionClient(queueName);
             try
             {
                 proxy.IngestTestData(msg);

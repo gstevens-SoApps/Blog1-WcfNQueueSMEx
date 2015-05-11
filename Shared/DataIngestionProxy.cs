@@ -20,9 +20,9 @@ using System;
 
 namespace Shared
 {
-    public class DataIngestionServiceProxy : QueuedServiceBusClient<IDataIngestionManager>, IDataIngestionManager
+    public class DataIngestionClient : QueuedServiceBusClient<IDataIngestion>, IDataIngestion
     {
-        public DataIngestionServiceProxy(string endpointName, string sessionId = null)
+        public DataIngestionClient(string endpointName, string sessionId = null)
             : base(endpointName, sessionId)
         {
         }

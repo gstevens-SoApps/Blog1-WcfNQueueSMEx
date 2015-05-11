@@ -20,7 +20,7 @@ using System.Runtime.Serialization;
 
 namespace Shared
 {
-    [DataContract(Namespace = "GeorgeStevens.SOApps")]
+    [DataContract(Namespace = "GeorgeStevens/SoApps/5/15")]
     public abstract class SbMessage
     {
         [DataMember]
@@ -29,7 +29,7 @@ namespace Shared
         public DateTime MessageDateTime;
     }
 
-    [DataContract(Namespace = "GeorgeStevens.SOApps")]
+    [DataContract(Namespace = "GeorgeStevens/SoApps/5/15")]
     public class SbMessageImpl : SbMessage
     {
     }
