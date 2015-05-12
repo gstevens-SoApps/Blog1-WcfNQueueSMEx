@@ -1,5 +1,5 @@
 # Blog1-WcfNQueueSMEx
-Code for blog article "SO Apps 1 -- WCF NetMessagingBinding and Queues In-Azure &amp; On-Prem"
+Code for blog article "SO Apps 1, WcfNQueueSMEx – WCF NetMessagingBinding In-Azure and On-Prem"
 
 The blog article is here:  
   https://dotnetsilverlightprism.wordpress.com/2015/05/12/so-apps-1-wcfnqueuesmex-wcf-netmessagingbinding-in-azure-and-on-prem/
