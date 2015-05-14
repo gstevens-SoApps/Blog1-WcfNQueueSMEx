@@ -8,7 +8,7 @@
     <ProjectGuid>{31444D8C-0160-4C48-A436-6169A67CE88F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataIngestionCloudWorker</RootNamespace>
+    <RootNamespace>DataFeedsCloudWorker</RootNamespace>
     <AssemblyName>DataIngestionCloudWorker</AssemblyName>
     <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -100,9 +100,9 @@
       <Project>{b91ae1f3-1351-41bd-92f0-bcc007f3e0ef}</Project>
       <Name>MiscHelpers</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataIngestionManager\DataIngestionManager.csproj">
+    <ProjectReference Include="..\DataFeedsManager\DataFeedsManager.csproj">
       <Project>{158b5e62-46fc-4c21-80df-ce79b4b64481}</Project>
-      <Name>DataIngestionManager</Name>
+      <Name>DataFeedsManager</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

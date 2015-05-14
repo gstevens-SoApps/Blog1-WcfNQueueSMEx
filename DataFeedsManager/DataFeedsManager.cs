@@ -1,5 +1,5 @@
 ﻿/*
-DataIngestionManager.DataIngestionManager
+DataFeedsManager.DataFeedsManager
   
 Copyright 2015 George Stevens
 
@@ -21,14 +21,14 @@ using System.Diagnostics;
 using MiscHelpers;
 using ServiceModelEx;
 
-namespace DataIngestionManager
+namespace DataFeedsManager
 {
     [GenericResolverBehavior] 
-    public class DataIngestionManager : IDataIngestion
+    public class DataFeedsManager : IDataFeeds
     {
-        private string m_ThisName = "DataIngestionManager";
+        private string m_ThisName = "DataFeedsManager";
 
-        void IDataIngestion.IngestTestData(TestMessage msg)
+        void IDataFeeds.IngestTestData(TestMessage msg)
         {
             string greeting = String.Format("\n{0}.IngestTestData(): Entered.", m_ThisName);
             Console.WriteLine(greeting);

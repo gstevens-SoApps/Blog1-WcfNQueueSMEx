@@ -11,7 +11,7 @@
     <RootNamespace>DataIngestionCloudSvc</RootNamespace>
     <AssemblyName>DataIngestionCloudSvc</AssemblyName>
     <StartDevelopmentStorage>True</StartDevelopmentStorage>
-    <Name>DataIngestionCloudSvc</Name>
+    <Name>DataFeedsCloudSvc</Name>
     <PackageEnableRemoteDebugger>True</PackageEnableRemoteDebugger>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -38,22 +38,22 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataIngestionCloudWorkerContent" />
+    <Folder Include="DataFeedsCloudWorkerContent" />
     <Folder Include="Profiles" />
   </ItemGroup>
   <ItemGroup>
-    <DiagnosticsConfiguration Include="DataIngestionCloudWorkerContent\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="DataFeedsCloudWorkerContent\diagnostics.wadcfgx" />
   </ItemGroup>
   <ItemGroup>
     <PublishProfile Include="Profiles\AzExploreCloudSvcProduction.azurePubxml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataIngestionCloudWorker\DataIngestionCloudWorker.csproj">
-      <Name>DataIngestionCloudWorker</Name>
+    <ProjectReference Include="..\DataFeedsCloudWorker\DataFeedsCloudWorker.csproj">
+      <Name>DataFeedsCloudWorker</Name>
       <Project>{31444d8c-0160-4c48-a436-6169a67ce88f}</Project>
       <Private>True</Private>
       <RoleType>Worker</RoleType>
-      <RoleName>DataIngestionCloudWorker</RoleName>
+      <RoleName>DataFeedsCloudWorker</RoleName>
     </ProjectReference>
   </ItemGroup>
   <!-- Import the target files for this project template -->

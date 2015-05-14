@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AzureCredentials />
     <AzureDeleteDeploymentOnFailure>False</AzureDeleteDeploymentOnFailure>
-    <AzureDeploymentLabel>DataIngestionCloudSvc</AzureDeploymentLabel>
+    <AzureDeploymentLabel>DataFeedsCloudSvc</AzureDeploymentLabel>
     <AzureDeploymentReplacementMethod>AutomaticUpgrade</AzureDeploymentReplacementMethod>
     <AzureSlot>Production</AzureSlot>
     <AzureEnableRemoteDesktop>True</AzureEnableRemoteDesktop>

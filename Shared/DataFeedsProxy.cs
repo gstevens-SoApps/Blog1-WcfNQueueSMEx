@@ -1,5 +1,5 @@
 ﻿/*
-Shared.DataIngestionServiceProxy
+Shared.DataFeedsServiceProxy
   
 Copyright 2015 George Stevens
 
@@ -20,9 +20,9 @@ using System;
 
 namespace Shared
 {
-    public class DataIngestionClient : QueuedServiceBusClient<IDataIngestion>, IDataIngestion
+    public class DataFeedsClient : QueuedServiceBusClient<IDataFeeds>, IDataFeeds
     {
-        public DataIngestionClient(string endpointName, string sessionId = null)
+        public DataFeedsClient(string endpointName, string sessionId = null)
             : base(endpointName, sessionId)
         {
         }

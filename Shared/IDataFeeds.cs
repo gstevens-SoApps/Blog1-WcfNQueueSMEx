@@ -1,5 +1,5 @@
 ﻿/*
-Shared.IDataIngestionManager
+Shared.IDataFeedsManager
   
 Copyright 2015 George Stevens
 
@@ -20,7 +20,7 @@ using System.ServiceModel;
 namespace Shared
 {
     [ServiceContract(Namespace = "GeorgeStevens/SoApps/5/15")]
-    public interface IDataIngestion
+    public interface IDataFeeds
     {
         [OperationContract(IsOneWay = true)]
         void IngestTestData(TestMessage dmsg);

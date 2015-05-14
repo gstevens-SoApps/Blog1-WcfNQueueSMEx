@@ -1,5 +1,5 @@
 ﻿/*
-DataIngestionCloudWorker.WorkerRole
+DataFeedsCloudWorker.WorkerRole
   
 Copyright 2015 George Stevens
 
@@ -21,7 +21,7 @@ using System;
 using System.Diagnostics;
 using System.Threading;
 
-namespace DataIngestionCloudWorker
+namespace DataFeedsCloudWorker
 {
     public class WorkerRoleWcf : RoleEntryPoint
     {
@@ -63,7 +63,7 @@ namespace DataIngestionCloudWorker
             bool serviceHostOk = false;
             try
             {
-                m_QueuedServiceBusHost = new QueuedServiceBusHost(typeof(DataIngestionManager.DataIngestionManager));
+                m_QueuedServiceBusHost = new QueuedServiceBusHost(typeof(DataFeedsManager.DataFeedsManager));
                 m_QueuedServiceBusHost.Open();
                 serviceHostOk = true;
                 Trace.TraceInformation("\n**" + m_ThisName + ".OpenServiceHost():  QueuedServiceBusHost opened Ok.");

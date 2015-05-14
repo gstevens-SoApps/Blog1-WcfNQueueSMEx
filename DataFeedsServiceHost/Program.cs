@@ -1,5 +1,5 @@
 ﻿/*
-DataIngestionServiceHost.Program
+DataFeedsServiceHost.Program
   
 Copyright 2015 George Stevens
 
@@ -20,11 +20,11 @@ using Shared;
 using System;
 using MiscHelpers;
 
-namespace DataIngestionServiceHost
+namespace DataFeedsServiceHost
 {
     public class Program
     {
-        private static string m_ThisName = "DataIngestionServiceHost";
+        private static string m_ThisName = "DataFeedsServiceHost";
 
         static void Main(string[] args)
         {
@@ -36,7 +36,7 @@ namespace DataIngestionServiceHost
             QueuedServiceBusHost host = null;
             try
             {
-                host = new QueuedServiceBusHost(typeof(DataIngestionManager.DataIngestionManager));
+                host = new QueuedServiceBusHost(typeof(DataFeedsManager.DataFeedsManager));
                 host.Open();
                 Console.WriteLine("{0}.Main():  QueuedServiceBusHost opened OK.  Working.....", m_ThisName);
             }

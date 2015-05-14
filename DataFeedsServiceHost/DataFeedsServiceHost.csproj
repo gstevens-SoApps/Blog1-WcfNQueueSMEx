@@ -7,7 +7,7 @@
     <ProjectGuid>{88930225-83B4-4204-8199-4F1F3851286E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataIngestionServiceHost</RootNamespace>
+    <RootNamespace>DataFeedsServiceHost</RootNamespace>
     <AssemblyName>DataIngestionServiceHost</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -69,9 +69,9 @@
       <Project>{b91ae1f3-1351-41bd-92f0-bcc007f3e0ef}</Project>
       <Name>MiscHelpers</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataIngestionManager\DataIngestionManager.csproj">
+    <ProjectReference Include="..\DataFeedsManager\DataFeedsManager.csproj">
       <Project>{158b5e62-46fc-4c21-80df-ce79b4b64481}</Project>
-      <Name>DataIngestionManager</Name>
+      <Name>DataFeedsManager</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
