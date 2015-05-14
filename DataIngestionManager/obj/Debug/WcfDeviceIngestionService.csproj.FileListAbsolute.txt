@@ -1,8 +1,0 @@
-C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDevice\WcfDeviceIngestionService\bin\Debug\WcfDeviceIngestionService.dll.config
-C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDevice\WcfDeviceIngestionService\bin\Debug\WcfDeviceIngestionService.dll
-C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDevice\WcfDeviceIngestionService\bin\Debug\WcfDeviceIngestionService.pdb
-C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDevice\WcfDeviceIngestionService\obj\Debug\WcfDeviceIngestionService.csprojResolveAssemblyReference.cache
-C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDevice\WcfDeviceIngestionService\obj\Debug\WcfDeviceIngestionService.dll
-C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDevice\WcfDeviceIngestionService\obj\Debug\WcfDeviceIngestionService.pdb
-C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDevice\WcfDeviceIngestionService\bin\Debug\Shared.dll
-C:\SWDev\AzureExplore\SbNetMessagingBinding\WcfNQueueNDevice\WcfDeviceIngestionService\bin\Debug\Shared.pdb
